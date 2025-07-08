@@ -1,0 +1,47 @@
+node_modules
+.vscode
+package-lock.json# Node modules
+node_modules/
+
+# VSCode settings
+.vscode/
+
+# Dependency lock
+package-lock.json
+
+# Build output
+dist/
+build/
+public/bundle.js
+
+# Electron-builder cache
+# (saves 100s of MBs, don't push this)
+*.log
+*.tsbuildinfo
+.cache/
+.out/
+.yarn/
+.yarnrc.yml
+.yarn-error.log
+
+# Electron-builder output cache
+# (Windows/Mac/Linux output folders)
+release/
+*.exe
+*.dmg
+*.AppImage
+*.snap
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment or secrets
+.env
+*.env.local
+vault.json
+
+/dist/
+/build/
+/*.exe
+*.log
