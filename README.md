@@ -3,8 +3,6 @@
 A simple, beautiful offline **password manager** built with **Electron** and **React**.
 Store your credentials locally with basic encryption — completely private, with no internet access required.
 
----
-
 ## Features
 
 - Add, edit, and delete login credentials
@@ -14,8 +12,6 @@ Store your credentials locally with basic encryption — completely private, wit
 - No online sync — 100% offline and private
 - Optional login/master password (commented for now)
 
----
-
 ## Tech Stack
 
 - **Frontend**: React (JSX)
@@ -23,8 +19,6 @@ Store your credentials locally with basic encryption — completely private, wit
 - **Storage**: Encrypted JSON in local AppData
 - **Bundler**: Webpack
 - **Packager**: `electron-builder` for creating `.exe`
-
----
 
 ## Folder Structure
 
@@ -40,8 +34,6 @@ password-vault-app/
 ├── electron-builder.yml
 └── dist/               # (Ignored) Electron-built .exe and setup files
 ```
-
----
 
 ## Getting Started
 
@@ -64,8 +56,6 @@ npm install
 npm start
 ```
 
----
-
 ## Build .exe Installer
 
 To generate a Windows installer (`PasswordVault Setup.exe`):
@@ -76,8 +66,6 @@ npm run dist
 
 > The `.exe` and setup files will be created inside the `/dist` folder.
 > You can share the installer with others — it **does not include your vault data.**
-
----
 
 ## Data Storage & Security
 
@@ -90,8 +78,6 @@ npm run dist
 - Vault is encrypted using basic `crypto` module in Node.js
 - No data is sent over the internet
 
----
-
 ## To Do / Optional Features
 
 - [ ] Enable master password login again
@@ -100,15 +86,11 @@ npm run dist
 - [ ] Use stronger encryption (AES)
 - [ ] Add dark/light themes
 
----
-
 ## Disclaimer
 
 > This app is built for **personal use only**.
 > It is a simple offline tool and does **not implement advanced encryption/security**.
 > For sensitive information or professional use, please use audited password managers.
-
----
 
 ## Author
 
